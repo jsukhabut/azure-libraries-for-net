@@ -82,6 +82,13 @@ namespace Microsoft.Azure.Management.TrafficManager.Fluent.Models
         public string TrafficRoutingMethod { get; set; }
 
         /// <summary>
+        /// Gets or sets the Maximum number of endpoints to be returned 
+        /// for MultiValue routing type.
+        /// </summary>
+        [JsonProperty(PropertyName = "properties.maxReturn")]
+        public long? MaxReturn { get; set; }
+
+        /// <summary>
         /// Gets or sets the DNS settings of the Traffic Manager profile.
         /// </summary>
         [JsonProperty(PropertyName = "properties.dnsConfig")]

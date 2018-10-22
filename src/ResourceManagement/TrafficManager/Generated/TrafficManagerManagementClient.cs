@@ -103,7 +103,7 @@ namespace Microsoft.Azure.Management.TrafficManager.Fluent
             Profiles = new ProfilesOperations(this);
             GeographicHierarchies = new GeographicHierarchiesOperations(this);
             BaseUri = new System.Uri("https://management.azure.com");
-            ApiVersion = "2017-05-01";
+            ApiVersion = "2018-04-01";
             AcceptLanguage = "en-US";
             LongRunningOperationRetryTimeout = 30;
             GenerateClientRequestId = true;
