@@ -77,7 +77,7 @@ namespace Microsoft.Azure.Management.TrafficManager.Fluent
         }
 
         public TrafficManagerProfileImpl WithSubnetBasedRouting()
-        {
+        {            
             return this.WithTrafficRoutingMethod((Microsoft.Azure.Management.TrafficManager.Fluent.TrafficRoutingMethod.Subnet));
         }
 
